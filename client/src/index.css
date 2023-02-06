@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#title--header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5px, 20px;
+  padding: 0;
+}
+
+.input--text {
+  width: 50%;
+  height: 30px;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.container--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 40px;
+}
+
+.contact-item {
+  width: 30%;
+  text-align: center;
+}
+
+.contact-icon {
+  font-size: 36px;
+  color: #1da1f2;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-link {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.hiphop--submit {
+  background-color: #3F51B5;
+  width:20%;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin:20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.hiphop--submit:hover {
+  background-color: white;
+  color: #3F51B5;
+  border: 2px solid #3F51B5;
+
+}
+
