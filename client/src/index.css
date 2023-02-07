@@ -15,12 +15,20 @@ body {
   padding: 0;
 }
 
-.input--text {
+#firstFreestyler {
   width: 50%;
   height: 30px;
   font-size: 1.2rem;
   padding: 5px;
   margin: 10px 0;
+}
+
+#secondFreestyler {
+    width: 50%;
+    height: 30px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 10px 0;
 }
 
 .container--header {
