@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import GenerateRap from './GenerateRap';
+import { Link } from "react-router-dom";
 
 const Launch = () => {
     const [text1, setText1] = useState('');
     const [text2, setText2] = useState('');
+
+    const handleClick = () => {
+        GenerateRap();
+      }
 
     return (
         <div>
@@ -14,8 +19,10 @@ const Launch = () => {
             <input id='firstFreestyler' type='text' value={text1} onChange={e => setText1(e.target.value)} placeholder='Freestyler #1' />
             <p className='vs-test'><b>{text1}</b> vs <b>{text2}</b></p>
             <input id='secondFreestyler' type='text' value={text2} onChange={e => setText2(e.target.value)} placeholder='Freestyler #2' />
-            <button className='hiphop--submit' onClick={() => GenerateRap()}>Rap!</button>
-
+            
+            <Link to='/freestyle'>
+                <button className='hiphop--submit' onClick={handleClick}>Rap!</button>
+            </Link>
             </div>
             
             <div className="contact-container">
@@ -42,3 +49,5 @@ const Launch = () => {
     )
 }
 export default Launch
+
+

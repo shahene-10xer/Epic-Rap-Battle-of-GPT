@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const GenerateRap = () => {
-const apiKey = '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'
+const apiKey = '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'
 
 const client = axios.create({
   headers: {
