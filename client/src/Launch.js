@@ -7,8 +7,8 @@ const Launch = () => {
     const [text2, setText2] = useState('');
 
     const handleClick = () => {
-        GenerateRap();
-      }
+        GenerateRap()
+    }
 
     return (
         <div>
