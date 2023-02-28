@@ -16,6 +16,8 @@ const Stage = () => {
 
   const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
   const cx = process.env.REACT_APP_CX;
+  const q1 = freestyler1;
+  const q2 = freestyler2;
   const query1 = freestyler1;
   const query2 = freestyler2;
 
@@ -74,7 +76,7 @@ const Stage = () => {
 
       {!isPickingWinner && (
         <div className='button-container'>
-          <button className='pickWinnerButton' onClick={() => handlePickWinner(query1, query2)}>
+          <button className='pickWinnerButton' onClick={() => handlePickWinner(q1, q2)}>
           Click for AI Judgement 
           </button>
         </div>
