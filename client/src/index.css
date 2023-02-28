@@ -123,3 +123,30 @@ body {
   width: 70%;
   
 }
+
+.pickWinnerButton {
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pickWinnerButton:hover {
+  background-color: #0A192F;
+}
+
+/* Styling for the winner text */
+#congratulations {
+  font-style: bold;
+  text-align: center;
+}
